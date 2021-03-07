@@ -1,0 +1,90 @@
+{
+  "tracker_broadcast": {
+    "type": "array",
+	"dropshadow": true,
+    "orientation": "vertical",
+    "content": [
+      {
+        "type": "itemgrid",
+        "h_alignment": "center",
+		"item_size": 32,
+		"margin": "0,0",
+        "item_margin": "3,4",
+        "rows": [
+          [ "kokirisword", "shield", "magic", "wallet", "bottle2", "bottle1", "beans", "lens" ],
+          [ "bow", "firearrow", "icearrow", "lightarrow", "hookshot", "bomb", "keg", "box" ],
+        	[ "moontear", "deed1", "deed2", "deed3", "deed4", "roomkey", "letter", "deliverytomama" ],
+          [ "healing_check", "epona_check", "storms_check", "oath_check", "sonata_check", "lullaby_check", "bossanova_check", "elegy_check" ],
+          [ "deku", "goron", "zora", "", "woodfall", "snowhead", "greatbay", "stonetower" ],          
+          [ "postman", "allnight", "blast", "keaton", "bremen", "bunny", "romanimask" ],
+          [ "kafeimask", "couple", "mot", "kamaro", "gibdo" , "garo", "captain" ]
+        ]
+
+
+      },
+	  {
+        "type": "array",
+        "orientation": "vertical",
+        "content": [
+		  {
+            "type": "array",
+			"h_alignment": "center",
+            "orientation": "horizontal",
+            "margin": "0,0",
+            "content": [
+				{
+					"type": "array",
+					"orientation": "horizontal",
+					"h_alignment": "right",
+					"margin": "3,4",
+					"content": [
+					  {
+					  }
+					]
+				},
+				{
+					"type": "array",
+					"orientation": "horizontal",
+					"h_alignment": "right",
+					"margin": "3,4",
+					"content": [
+					  {
+					  }
+					]
+				},
+				{
+					"type": "array",
+					"orientation": "horizontal",
+					"h_alignment": "left",
+					"margin": "3,4",
+					"content": [
+					  {
+					  }
+					]
+				},
+				{
+					"type": "array",
+					"orientation": "horizontal",
+					"h_alignment": "right",
+					"margin": "3,4",
+					"content": [
+					  {
+					  }
+					]
+				}
+				
+			]
+		  },
+          {
+            "type": "array",
+            "orientation": "horizontal",
+            "margin": "0,0",
+            "content": [
+				
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
