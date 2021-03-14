@@ -103,7 +103,7 @@
     "short_name": "SHT",
     "parent": "Snowhead Area",
 	"access_rules": [
-      "lullaby"
+      "lullaby, goron"
     ],
     "sections": [
 

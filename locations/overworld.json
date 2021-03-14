@@ -306,14 +306,14 @@
                   {
                     "name": "Capture the stray fairy",
                     "chest_unopened_img": "images/woodfall_stray_fairy.png",
-                    "chest_opened_img": "images/stray_fairy.png",
+                    
                     "capture_item": true,
                     "item_count": 1
                   },
                   {
                     "name": "Have a Transformation Mask",
 					"chest_unopened_img": "images/woodfall_stray_fairy.png",
-					"chest_opened_img": "images/stray_fairy.png",
+					
                     "access_rules": [
                       "deku",
                       "goron",
@@ -420,8 +420,7 @@
                 "sections": [
                   {
                     "name": "Milk Bar Performance - Night 1/2 10 PM - 6 AM",
-					"chest_unopened_img": "images/unknownmask.png",
-					"chest_opened_img": "images/unknownmask_grey.png",
+					"chest_unopened_img": "images/troupe.png",					
                     "access_rules": [
                       "deku,goron,zora,romanimask"
                     ],
@@ -432,6 +431,15 @@
                     "name": "Delivery To Madame Aroma - Final Night",
                     "access_rules": [
                       "kafeimask,deliverytomama"
+                    ],
+                    "capture_item": true,
+                    "item_count": 1
+                  },
+				  {
+                    "name": "Top Priority Delivery - Final Night",
+					"chest_unopened_img": "images/postman.png",
+                    "access_rules": [
+                      "deliverytomama"
                     ],
                     "capture_item": true,
                     "item_count": 1
@@ -483,7 +491,8 @@
 					"chest_opened_img": "images/heartpiece_grey.png",
                     "access_rules": [
                       "bomb",
-					  "bow"
+					  "bow",
+					  "deku,magic"
                     ],
                     "capture_item": true,
                     "item_count": 1
@@ -657,16 +666,7 @@
                     "capture_item": true,
                     "item_count": 1
                   },
-                  {
-                    "name": "Top Priority Delivery - Final Night",
-					"chest_unopened_img": "images/unknownmask.png",
-					"chest_opened_img": "images/unknownmask_grey.png",
-                    "access_rules": [
-                      "deliverytomama"
-                    ],
-                    "capture_item": true,
-                    "item_count": 1
-                  }
+                  
                 ],
                 "map_locations": [
                   {
@@ -676,6 +676,7 @@
                   }
                 ]
               },
+	
               {
                 "name": "Bomb Shop",
                 "short_name": "Bomb Shop",
@@ -1565,14 +1566,17 @@
           {
             "name": "Poison Swamp Area",
             "access_rules": [
-              "bow",
-              "bottle"
+              "bow,deku",
+			  "zora",
+			  "hookshot,deku",
+              "bottle",
+			  "pictobox"
             ],
             "children": [
               {
                 "name": "Deku Palace Area",
                 "access_rules": [
-                  "deku"
+                  "[deku]"
                 ],
                 "children": [
                   {
@@ -1580,15 +1584,16 @@
                     "short_name": "Deku Palace",
                     "sections": [
                       {
-                        "name": "Use Deku Pipes in front of the monkey",
+                        "name": "Sonata of Awakening",
 						"chest_unopened_img": "images/unknownsong.png",
 						"chest_opened_img": "images/unknownsong_check.png",
                         "access_rules": [
-							"ocarina,storm,beans",
-							"beans,bottle",
-							"ocarina,storm,deku",
-							"deku,bottle",
-						  "ocarina,$can_grow_magic_plant"
+							"ocarina,[storm],beans,deku",
+							"beans,[bottle],deku",
+							"ocarina,[storm],deku",
+							"deku,[bottle]",
+						  "ocarina,[$can_grow_magic_plant],deku"
+						 
                         ],
                         "capture_item": true,
                         "item_count": 1
@@ -1652,7 +1657,8 @@
                 "short_name": "Swamp Grotto",
                 "access_rules": [
                   "deku",
-                  "zora,[deku]"
+                  "zora,[deku]",
+				  "goron,[deku]"
                 ],
                 "sections": [
                   {
@@ -1672,6 +1678,7 @@
               {
                 "name": "Swamp Spider House",
                 "short_name": "Swamp Spiders",
+				"access_rules": [ "[deku]"],
                 "sections": [
                   {
                     "name": "Collect 30 Tokens",
