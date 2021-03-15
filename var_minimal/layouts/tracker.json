@@ -27,8 +27,9 @@
               "dock": "top",
 			  "header_content": {
                 "type": "button_popup",
-                "style": "settings",
-				
+                "style": "image",
+				"image": "images/keaton.png",
+				"height": 25,
                 "popup_background": "#FF212121",
                 "layout": "options_popup"
               },
