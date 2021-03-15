@@ -1306,7 +1306,7 @@
 				"chest_opened_img": "images/heartpiece_grey.png",
                 "access_rules": [
                   "$has_projectile",
-                  "bombchus"
+                  "bombs"
                 ],
                 "capture_item": true,
                 "item_count": 1

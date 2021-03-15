@@ -1,0 +1,52 @@
+{
+  "options_popup": {
+    "type": "tabbed",
+    "tabs": [
+      
+      {
+        "title": "Keaton Quiz",
+        "content": {
+          "type": "array",
+          "orientation": "vertical",
+          "content": [
+            
+            {
+              "type": "scroll",
+              "horizontal_scrollbar_visibility": "auto",
+              "vertical_scrollbar_visibility": "auto",
+          
+              "content": [
+                {
+                  "type": "layout",
+                  "key": "keaton_list"
+                }
+              ]
+            }
+          ]
+        }
+      },
+	  {
+        "title": "Lost Woods",
+        "content": {
+          "type": "array",
+          "orientation": "vertical",
+          "content": [
+            
+            {
+              "type": "scroll",
+              "horizontal_scrollbar_visibility": "auto",
+              "vertical_scrollbar_visibility": "auto",
+          
+              "content": [
+                {
+                  "type": "layout",
+                  "key": "lost_woods"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

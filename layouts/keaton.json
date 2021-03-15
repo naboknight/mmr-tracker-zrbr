@@ -1,0 +1,26 @@
+{
+  "keaton_list": {
+    "type": "array",
+    "orientation": "vertical",
+    "item_margin": "1,2",
+    "content": [
+      {
+        "type": "item",
+        "item": "keaton1",
+		"max_height": 600,
+      },
+      ]
+  },
+  "lost_woods": {
+    "type": "array",
+    "orientation": "vertical",
+    "item_margin": "1,2",
+    "content": [
+      {
+        "type": "item",
+        "item": "lwoods",
+		"max_height": 600,
+      },
+      ]
+  },
+}
