@@ -14,7 +14,8 @@
               "type": "scroll",
               "horizontal_scrollbar_visibility": "auto",
               "vertical_scrollbar_visibility": "auto",
-          
+               "max_height": 500,
+
               "content": [
                 {
                   "type": "layout",

@@ -7,8 +7,9 @@
       {
         "type": "item",
         "item": "keaton1",
-		"max_height": 600,
+        "height": 800
       },
+	  
       ]
   },
   "lost_woods": {
@@ -19,7 +20,7 @@
       {
         "type": "item",
         "item": "lwoods",
-		"max_height": 600,
+		"max_height": 550,
       },
       ]
   },
