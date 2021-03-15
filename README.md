@@ -7,3 +7,7 @@
 	 Hookshot ou Bow (acesso logico a areas de poison, com Deku Mask)
 	 Zora Mask (acesso fora de logica a areas de poison)
 	 Removido o trick "Bean Skip" do check "Sonata of Awakening"
+
+## 15/03/2021
+#### Adicionado Bomb bag na logica do check Bat Tree;
+#### Impementado popup com Keaton Quiz e Map de Lost Woods
