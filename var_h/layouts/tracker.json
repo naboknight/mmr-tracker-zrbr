@@ -19,7 +19,7 @@
 			  "header_content": {
                 "type": "button_popup",
                 "style": "image",
-				"image": "images/keaton.png",
+				"image": "images/unknown.png",
 				"height": 25,
                 "popup_background": "#FF212121",
                 "layout": "options_popup"

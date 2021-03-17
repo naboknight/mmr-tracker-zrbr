@@ -13,6 +13,12 @@
     "img": "images/lostwoods.png",
     "codes": "lwoods"
   },
-  
+   {
+    "name": "Songs",
+    "type": "toggle",
+    "initial_active_state": true,
+    "img": "images/songs.png",
+    "codes": "songs"
+  },
   
 ]

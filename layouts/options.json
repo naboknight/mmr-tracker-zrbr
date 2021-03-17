@@ -27,6 +27,29 @@
         }
       },
 	  {
+        "title": "Songs",
+        "content": {
+          "type": "array",
+          "orientation": "vertical",
+          "content": [
+            
+            {
+              "type": "scroll",
+              "horizontal_scrollbar_visibility": "auto",
+              "vertical_scrollbar_visibility": "auto",
+               "max_height": 500,
+
+              "content": [
+                {
+                  "type": "layout",
+                  "key": "songs"
+                }
+              ]
+            }
+          ]
+        }
+      },
+	  {
         "title": "Lost Woods",
         "content": {
           "type": "array",
@@ -37,7 +60,7 @@
               "type": "scroll",
               "horizontal_scrollbar_visibility": "auto",
               "vertical_scrollbar_visibility": "auto",
-          
+                         "max_height": 500,
               "content": [
                 {
                   "type": "layout",

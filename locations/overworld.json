@@ -2306,7 +2306,9 @@
                     "access_rules": [
 						"{}",
 						"ocarina,storm,beans,hookshot",
-						"beans,bottle,hookshot",
+						"ocarina,storm,deku,hookshot",
+						"deku,bottle,hookshot",
+					   "beans,bottle,hookshot",
                       "hookshot,ocarina,$can_grow_magic_plant"
                     ],
                     "capture_item": true,

@@ -24,4 +24,17 @@
       },
       ]
   },
+  
+  "songs": {
+    "type": "array",
+    "orientation": "vertical",
+    "item_margin": "1,2",
+    "content": [
+      {
+        "type": "item",
+        "item": "songs",
+		"max_height": 550,
+      },
+      ]
+  },
 }
