@@ -352,10 +352,7 @@
         "img": "images/shield.png",
         "codes": "shield,shield1,heroshield,hylianshield"
       },
-      {
-        "img": "images/mirror.png",
-		"codes": "mirror,mirrorshield,mirror_shield,shield2"
-      }
+
     ]
   },
   
@@ -870,13 +867,7 @@
     "codes": "giant,giantmask,giantsmask,giant_mask,giants_mask"
   },
   
-  // Blast Mask
-  {
-    "name": "Blast Mask",
-    "type": "toggle",
-    "img": "images/blast.png",
-    "codes": "blast,blastmask,blast_mask"
-  },
+
   
   // All Night Mask
   {
@@ -934,12 +925,21 @@
     "codes": "dongero,don_gero,dongeromask,dongero_mask,don_gero_mask,frog"
   },
   
-  // Garo Mask
+  
   {
     "name": "Garo Mask",
-    "type": "toggle",
-    "img": "images/garo.png",
-    "codes": "garo,garomask,garomaster,garosmask"
+    "type": "progressive",
+	"initial_stage_idx": -1,
+	"stages": [
+      {
+        "img": "images/garo.png",
+        "codes": "garo,garomask,garomaster,garosmask"
+      },
+	  {
+        "img": "images/gibdo.png",
+        "codes": "gibdo,gibdomask,gibdosmask"
+      },
+    ]
   },
   
   // Gibdo Mask
@@ -1678,11 +1678,23 @@
   },
   
   // Bombs without Ammo Display
-  {
+
+  
+    {
     "name": "Bombs",
-    "type": "toggle",
-    "img": "images/bomb.png",
-    "codes": "bombsnoammo,bombbagnoammo,bombnoammo,bombs_no_ammo,bombs_noammo"
+    "type": "progressive",
+	"initial_stage_idx": -1,
+	"stages": [
+	  {
+        "img": "images/blast.png",
+        "codes": "blast,blastmask,blast_mask"
+      },
+      {
+        "img": "images/bomb.png",
+        "codes": "bombs,bombbag,bomb,bombsnoammo,bombbagnoammo,bombnoammo,bombs_no_ammo,bombs_noammo"
+      },
+
+    ]
   },
   
   // Hero Shield Static
@@ -1698,7 +1710,7 @@
     "name": "Mirror Shield",
     "type": "toggle",
     "img": "images/mirror.png",
-    "codes": "mirror_static,mirrorshield_static,mirror_shield_static,shield2_static"
+    "codes": "mirror,mirrorshield,mirror_shield,shield2"
   },
   
   // Kokiri Sword Static

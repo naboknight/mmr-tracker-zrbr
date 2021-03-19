@@ -2,41 +2,108 @@
   "shared_item_grid": {
     "type": "array",
     "orientation": "vertical",
+
     "content": [
-      {
+	  {
+		"type": "array",
+		"orientation": "horizontal",
+		"content": [
+			{
+			 "type": "itemgrid",
+			 "h_alignment": "center",
+			 "item_size": 38,
+			 "margin": "5,0",
+			 "item_margin": "3,4",
+			 "rows": [
+				["deku","zora","goron"],
+				["keg","mirror","captain"],
+
+				]
+			},
+{
+			 "type": "itemgrid",
+			 "h_alignment": "center",
+			 "item_size": 14,
+			 "margin": "0,0",
+			 "item_margin": "3,4",
+			 "rows": [
+				[""],
+				[""],
+
+				]
+			},			
+			{
+			 "type": "itemgrid",
+			 "h_alignment": "center",
+			 "item_size": 36,
+			 "margin": "0,0",
+			 "item_margin": "3,4",
+			 "rows": [
+				["healing_check", "epona_check", "storms_check", "oath_check"],
+				["sonata_check", "lullaby_check", "bossanova_check", "elegy_check"],
+
+				]
+			},			
+		]
+	  },
+	  
+     		{
         "type": "itemgrid",
         "h_alignment": "center",
+		    "item_size": 35,
+		    "margin": "0,0",
+        "item_margin": "3,4",
+        "rows": [
+		  ["hookshot","garo","blast","bow","firearrow","icearrow","lightarrow","magic"],
+	  
+        ]
+		}, 
+
+   	  {
+        "type": "array",
+        "orientation": "horizontal",
+        "content": [
+
+		{
+        "type": "itemgrid",
+        "h_alignment": "center",
+		"v_alignment": "center",
 		    "item_size": 29,
 		    "margin": "0,0",
         "item_margin": "3,4",
         "rows": [
-          [ "kokirisword", "shield", "magic", "wallet", "bottle2", "bottle1", "beans", "lens" ],
-          [ "bow", "firearrow", "icearrow", "lightarrow", "hookshot", "bomb", "keg", "box" ],
-        	[ "moontear", "deed1", "deed2", "deed3", "deed4", "roomkey", "letter", "deliverytomama" ],
-          [ "healing_check", "epona_check", "storms_check", "oath_check", "sonata_check", "lullaby_check", "bossanova_check", "elegy_check" ],
-          [ "deku", "goron", "zora", "", "woodfall", "snowhead", "greatbay", "stonetower" ],          
-          [ "postman", "allnight", "blast", "keaton", "bremen", "bunny", "romanimask" ],
-          [ "kafeimask", "couple", "mot", "kamaro", "gibdo" , "garo", "captain" ]
+
+		  [ "","deed1", "deed2", "deed3", "deed4","moontear",  "roomkey", "letter", "deliverytomama" ],
+          [ "","bottle2", "bottle1", "beans", "lens", "mot",  "romanimask","box", "wallet" ],		                           
+          [ "","keaton", "bremen",  "kafeimask", "allnight", "postman", "couple", "bunny", "kamaro" ],
+     
+		  
+			]
+		},
+          
+          
+		]
+      },
+	  
+	  
+	  
+	  
+{
+        "type": "array",
+        "orientation": "horizontal",
+        "content": [
+		{
+        "type": "itemgrid",
+        "h_alignment": "center",
+		    "item_size": 40,
+		    "margin": "15,0",
+        "item_margin": "4,4",
+        "rows": [    
+		  ["","woodfall", "snowhead", "greatbay", "stonetower"],
         ]
       },
-   	  {
-        "type": "array",
-        "orientation": "vertical",
-        "content": [
-          {
-            "type": "array",
-            "orientation": "horizontal",
-            "margin": "0,0",
-            "content": [
-	          ]
-          },
-          {
-            "type": "array",
-            "orientation": "horizontal",
-            "margin": "0,0",
-            "content": [
-	          ]
-          }
+          
+          
         ]
       }
     ]
@@ -61,7 +128,7 @@
 				  "razorsword",
 				  "gildedsword",
 				  "shield_static",
-				  "mirror_static",
+				  "mirror",
 				  "purple_rupee",
 				  "silver_rupee"
 				],
