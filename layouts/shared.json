@@ -47,10 +47,17 @@
 		]
 	  },
 	  
+
+
+{
+        "type": "array",
+        "orientation": "horizontal",
+        "content": [
+
      		{
         "type": "itemgrid",
-        "h_alignment": "center",
 		    "item_size": 35,
+			"v_alignment": "center",
 		    "margin": "0,0",
         "item_margin": "3,4",
         "rows": [
@@ -58,7 +65,10 @@
 	  
         ]
 		}, 
-
+          
+          
+		]
+      },
    	  {
         "type": "array",
         "orientation": "horizontal",

@@ -37,4 +37,17 @@
       },
       ]
   },
+  
+  "well": {
+    "type": "array",
+    "orientation": "vertical",
+    "item_margin": "1,2",
+    "content": [
+      {
+        "type": "item",
+        "item": "well",
+		"max_height": 560,
+      },
+      ]
+  },
 }

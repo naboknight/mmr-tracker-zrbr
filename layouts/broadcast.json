@@ -3,6 +3,7 @@
     "type": "array",
 	"dropshadow": true,
     "orientation": "vertical",
+	///"background": "#9370DB",
     "content": [
 	{
 		"type": "array",

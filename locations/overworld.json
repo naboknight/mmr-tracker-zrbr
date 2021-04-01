@@ -261,7 +261,7 @@
                 "short_name": "NCT Tree",
                 "sections": [
                   {
-                    "name": "North Clock Town Tree HP",
+                    "name": "Tree HP",
 					"chest_unopened_img": "images/heartpiece.png",
 					"chest_opened_img": "images/heartpiece_grey.png",
                     "capture_item": true,
@@ -304,14 +304,14 @@
                 "short_name": "CT Fairy",
                 "sections": [
                   {
-                    "name": "Capture the stray fairy",
+                    "name": "Stray fairy",
                     "chest_unopened_img": "images/woodfall_stray_fairy.png",
                     
                     "capture_item": true,
                     "item_count": 1
                   },
                   {
-                    "name": "Have a Transformation Mask",
+                    "name": "Transformation Mask",
 					"chest_unopened_img": "images/woodfall_stray_fairy.png",
 					
                     "access_rules": [
@@ -354,12 +354,12 @@
                 "short_name": "Inn",
                 "sections": [
                   {
-                    "name": "Inn Employee Room Chest - Final Night",
+                    "name": "Final Night",
                     "capture_item": true,
                     "item_count": 1
                   },
                   {
-                    "name": "Room Reservation Mixup - Day 1: from 1 PM to 4 PM",
+                    "name": "Anju - Day 1: 1 PM to 4 PM",
                     "capture_item": true,
                     "item_count": 1
                   },
@@ -372,7 +372,7 @@
                     "item_count": 1
                   },
                   {
-                    "name": "Midnight Item From Anju - Night 1: 11:30 PM",
+                    "name": "Midnight Anju - Night 1: 11:30 PM",
                     "access_rules": [
                       //"[zora],kafeimask",
                       "deku,kafeimask",
@@ -382,7 +382,7 @@
                     "item_count": 1
                   },
                   {
-                    "name": "Grandma Story Time - Day 1/2",
+                    "name": "Grandma Story Time",
 					"chest_unopened_img": "images/heartpiece.png",
 					"chest_opened_img": "images/heartpiece_grey.png",
                     "access_rules": [
@@ -392,7 +392,7 @@
                     "item_count": 2
                   },
                   {
-                    "name": "Toilet Hand Gift - Midnight - 6 AM",
+                    "name": "Toilet",
 					"chest_unopened_img": "images/heartpiece.png",
 					"chest_opened_img": "images/heartpiece_grey.png",
                     "access_rules": [
@@ -419,7 +419,7 @@
                 "name": "Milk Bar",
                 "sections": [
                   {
-                    "name": "Milk Bar Performance - Night 1/2 10 PM - 6 AM",
+                    "name": "Performance - Night 1/2 10 PM - 6 AM",
 					"chest_unopened_img": "images/troupe.png",					
                     "access_rules": [
                       "deku,goron,zora,romanimask"
@@ -483,7 +483,7 @@
                 ]
               },
               {
-                "name": "Honey and Darling - Open 6 AM - 10 PM",
+                "name": "Honey and Darling",
                 "sections": [
                   {
                     "name": "Beat All Three Days",
@@ -507,7 +507,7 @@
                 ]
               },
               {
-                "name": "Town Shooting Gallery - Open 6 AM - 10 PM",
+                "name": "Town Shooting Gallery",
                 "short_name": "Town Archery",
                 "sections": [
                   {
@@ -854,11 +854,11 @@
               {
                 "name": "Chest on a stump",
                 "access_rules": [
-				  "[$can_grow_magic_plant]",
+				  "$can_grow_magic_plant",
 				  "ocarina,storm,beans",
 				  "beans,bottle",
 				  "deku,storm,ocarina",
-                  "[hookshot]",
+                  "hookshot",
 				  "deku,bottle"
                 ],
                 "capture_item": true,
@@ -1024,7 +1024,7 @@
             "short_name": "Business Scrub Grotto",
             "sections": [
               {
-                "name": "Follow Scrub With Telescope",
+                "name": "Follow Scrub",
 				"chest_unopened_img": "images/heartpiece.png",
 				
 				"chest_opened_img": "images/heartpiece_grey.png",
@@ -1038,7 +1038,7 @@
                 "item_count": 1
               },
 			  {
-                "name": "Look at Skull Kid through the telescope",
+                "name": "Look at Skull Kid",
                 "access_rules": [
                   "[$has_projectile]",
                   "[$has_projectile],deku",
@@ -1449,7 +1449,7 @@
             "short_name": "Tourist Center",
             "sections": [
               {
-                "name": "Gift From Saving Koume",
+                "name": "Saving Koume",
                 "access_rules": [
                   "bottlesanity_no,bottle",
 				  "bottlesanity_yes,redpotion",
@@ -1459,7 +1459,7 @@
                 "item_count": 1
               },
               {
-                "name": "Show Photo of Tingle or Deku King",
+                "name": "Show Photo",
 				"chest_unopened_img": "images/heartpiece.png",
 				"chest_opened_img": "images/heartpiece_grey.png",
                 "access_rules": [
@@ -1469,7 +1469,7 @@
                 "item_count": 1
               },
               {
-                "name": "Post Woodfall Temple Archery Game",
+                "name": "Archery Game",
 				"chest_unopened_img": "images/heartpiece.png",
 				"chest_opened_img": "images/heartpiece_grey.png",
                 "access_rules": [
@@ -1494,7 +1494,7 @@
             "short_name": "Potion Bottle",
             "sections": [
               {
-                "name": "Talk to Kotake after seeing Koume in Woods",
+                "name": "Talk to Kotake",
                 "capture_item": true,
                 "item_count": 1
               }
@@ -2180,11 +2180,14 @@
           {
             "name": "Road to Snowhead",
             "short_name": "Road to Snowhead",
+			"access_rules": [
+                  "goron, magic"
+                ],
             "sections": [
               {
                 "name": "Get in the secret grotto",
                 "access_rules": [
-                  "goron,$has_explosives"
+                  "goron,$has_explosives, magic"
                 ],
                 "capture_item": true,
                 "item_count": 1
@@ -2194,7 +2197,7 @@
 				"chest_unopened_img": "images/heartpiece.png",
 				"chest_opened_img": "images/heartpiece_grey.png",
                 "access_rules": [
-					"{goron}",
+					"goron, magic, {lens}",
                   "hookshot,ocarina,goron,$can_see_with_lens"
                 ],
                 "capture_item": true,
@@ -2407,7 +2410,7 @@
                 ],
                 "sections": [
                   {
-                    "name": "> > v A A v > A < < > v v > < v On Ocarina - Third Room Down",
+                    "name": "Evan",
 					"chest_unopened_img": "images/heartpiece.png",
 					"chest_opened_img": "images/heartpiece_grey.png",
                     "access_rules": [
@@ -2417,7 +2420,7 @@
                     "item_count": 1
                   },
                   {
-                    "name": "Give Ocean Scrub The Mountain Title Deed - Fourth Room Down",
+                    "name": "Mountain Title Deed",
                     "access_rules": [
                       "snowhead_deed,goron"
                     ],
@@ -2433,7 +2436,7 @@
                     "item_count": 1
                   },
                   {
-                    "name": "Use Ocean Scrub Flower - Fourth Room Down",
+                    "name": "Use Flower",
 					"chest_unopened_img": "images/heartpiece.png",
 					"chest_opened_img": "images/heartpiece_grey.png",
                     "access_rules": [
@@ -2552,17 +2555,17 @@
                 ],
                 "sections": [
                   {
-                    "name": "PF Underwater Maze Chest",
+                    "name": "Maze Chest",
                     "capture_item": true,
                     "item_count": 1
                   },
                   {
-                    "name": "PF Jail Room Underwater Chests",
+                    "name": "Jail Chests",
                     "capture_item": true,
                     "item_count": 2
                   },
                   {
-                    "name": "PF Jail Room PoH",
+                    "name": "Jail PoH",
 					"chest_unopened_img": "images/heartpiece.png",
 					"chest_opened_img": "images/heartpiece_grey.png",
                     "capture_item": true,
@@ -2636,7 +2639,7 @@
                 "short_name": "ZC Water",
                 "sections": [
                   {
-                    "name": "Zora Cape Underwater Chest",
+                    "name": "Underwater Chest",
                     "capture_item": true,
                     "item_count": 1
                   },
@@ -2657,7 +2660,7 @@
                 "short_name": "ZC Waterfall",
                 "sections": [
                   {
-                    "name": "Zora Cape Like Like Treasure",
+                    "name": "Like Like Treasure",
 					"chest_unopened_img": "images/heartpiece.png",
 					"chest_opened_img": "images/heartpiece_grey.png",
                     "capture_item": true,
@@ -2681,7 +2684,7 @@
             "short_name": "ZC Grotto",
             "sections": [
               {
-                "name": "Under The Rock By The Fairy Shrine",
+                "name": "ZC Grotto",
                 "access_rules": [
                   "$has_explosives",
 				  "goron"
@@ -2734,12 +2737,12 @@
             ],
             "sections": [
               {
-                "name": "Zora Cape Ledge Chest",
+                "name": "ZC Ledge Chest",
                 "capture_item": true,
                 "item_count": 1
               },
               {
-                "name": "Zora Cape Ledge From Flower Chest",
+                "name": "ZC Ledge Flower Chest",
                 "access_rules": [
                   "deku",
 				  "hookshot"
@@ -2791,11 +2794,11 @@
         ],
         "children": [
           {
-            "name": "Shiro the Invisible Soldier",
+            "name": "Shiro",
             "short_name": "Invisible Soldier",
             "sections": [
               {
-                "name": "Give him a red potion",
+                "name": "Shiro",
 				"chest_unopened_img": "images/unknownmask.png",
 				"chest_opened_img": "images/unknownmask_grey.png",
                 "access_rules": [
@@ -2824,7 +2827,7 @@
             ],
             "sections": [
               {
-                "name": "Defeat Captain Keeta",
+                "name": "Captain Keeta",
                 "access_rules": [
                   "[zora]",
                   "[hookshot]"
@@ -2847,7 +2850,7 @@
             "short_name": "Graveyard Grotto",
             "sections": [
               {
-                "name": "Bomb the circle of rocks",
+                "name": "Graveyard Grotto",
                 "access_rules": [
                   "$has_explosives"
                 ],

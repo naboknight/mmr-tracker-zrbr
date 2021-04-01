@@ -1,7 +1,7 @@
 {
   "name": "MMR Map Tracker",
   "game_name": "Majora's Mask Randomizer",
-  "package_version": "2.1.2",
+  "package_version": "1.3",
   "package_uid": "mmrando_zrbr",
   "author": "ZRBR",
   "variants": {
@@ -9,7 +9,7 @@
       "display_name": "Map Tracker"
     },
     "var_minimal": {
-      "display_name": "Map Tracker Vertical"
+      "display_name": "Items Only"
     },
 	"var_h": {
       "display_name": "Map Tracker Horizontal"

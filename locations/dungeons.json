@@ -7,7 +7,7 @@
       "ocarina,sonata,deku"
     ],
     "sections": [
-      {
+      /*{
         "name": "Small Key Chest",
         "short_name": "Small Key",
         "access_rules": [
@@ -16,7 +16,7 @@
         ],
         "capture_item": true,
         "item_count": 1
-      },
+      },*/
 
       {
         "name": "Map Chest",
@@ -76,7 +76,7 @@
         "item_count": 1
       },
 
-      {
+      /*{
         "name": "Oath to Order",
 		"chest_unopened_img": "images/unknownsong.png",
 		"chest_opened_img": "images/unknownsong_check.png",
@@ -86,7 +86,7 @@
         ],
         "capture_item": true,
         "item_count": 1
-      }
+      }*/
 
     ],
     "map_locations": [
@@ -103,7 +103,7 @@
     "short_name": "SHT",
     "parent": "Snowhead Area",
 	"access_rules": [
-      "lullaby, goron"
+      "lullaby, goron, magic"
     ],
     "sections": [
 
@@ -118,7 +118,7 @@
         "item_count": 1
       },
 
-      {
+      /*{
         "name": "Small Key Chest 1F West",
         "short_name": "Small Key 1",
         "access_rules": [
@@ -127,7 +127,7 @@
         ],
         "capture_item": true,
         "item_count": 1
-      },
+      },*/
 
       {
         "name": "Compass Chest",
@@ -141,7 +141,7 @@
         "item_count": 1
       },
 
-      {
+     /* {
         "name": "Small Key Chest 2F",
         "short_name": "Small Key 2",
         "access_rules": [
@@ -154,7 +154,7 @@
         ],
         "capture_item": true,
         "item_count": 1
-      },
+      },*/
 
       {
         "name": "Fire Arrows Chest",
@@ -171,7 +171,7 @@
         "item_count": 1
       },
 
-      {
+     /* {
         "name": "Small Key Chest 1 East",
         "short_name": "Small Key 3",
         "access_rules": [
@@ -181,7 +181,7 @@
         ],
         "capture_item": true,
         "item_count": 1
-      },
+      },*/
 
       {
         "name": "Boss Key Chest",
@@ -206,7 +206,7 @@
         "item_count": 1
       },
 
-      {
+      /*{
         "name": "Oath to Order",
 		"chest_unopened_img": "images/unknownsong.png",
 		"chest_opened_img": "images/unknownsong_check.png",
@@ -215,7 +215,7 @@
         ],
         "capture_item": true,
         "item_count": 1
-      }
+      }*/
 
     ],
     "map_locations": [
@@ -255,7 +255,7 @@
         "item_count": 1
       },
 
-      {
+      /*{
         "name": "Small Key Chest",
         "short_name": "Small Key",
         "access_rules": [
@@ -263,7 +263,7 @@
         ],
         "capture_item": true,
         "item_count": 1
-      },
+      },*/
 
       {
         "name": "Boss Key Chest",
@@ -299,7 +299,7 @@
         "item_count": 1
       },
 
-      {
+      /*{
         "name": "Oath to Order",
 		"chest_unopened_img": "images/unknownsong.png",
 		"chest_opened_img": "images/unknownsong_check.png",
@@ -311,7 +311,7 @@
         ],
         "capture_item": true,
         "item_count": 1
-      }
+      }*/
 
     ],
     "map_locations": [
@@ -330,7 +330,7 @@
     "sections": [
 
       {
-        "name": "Stone Tower Temple Map Chest",
+        "name": "Map Chest",
         "short_name": "Map",
         "access_rules": [
           "goron,elegy,mirrorshield,$has_explosives",
@@ -341,7 +341,7 @@
         "item_count": 1
       },
 
-      {
+      /*{
         "name": "Stone Tower Temple Small Key Chest B2",
         "short_name": "Stone Tower Small Key 1",
         "access_rules": [
@@ -351,9 +351,9 @@
         ],
         "capture_item": true,
         "item_count": 1
-      },
+      },*/
 
-      {
+      /*{
         "name": "Stone Tower Temple Small Key Chest 1F",
         "short_name": "Stone Tower Small Key 2",
         "access_rules": [
@@ -363,10 +363,10 @@
         ],
         "capture_item": true,
         "item_count": 1
-      },
+      },*/
 
       {
-        "name": "Stone Tower Temple Compass Chest",
+        "name": "Compass Chest",
         "short_name": "Compass",
         "access_rules": [
           "goron,zora,elegy,mirrorshield",
@@ -377,7 +377,7 @@
       },
 
       {
-        "name": "Stone Tower Temple Light Arrows Chest",
+        "name": "Light Arrows Chest",
         "short_name": "Light Arrows",
         "access_rules": [
           "goron,$has_explosives,zora,mirrorshield,deku",
@@ -387,7 +387,7 @@
         "item_count": 1
       },
 
-      {
+     /* {
         "name": "Inverted Stone Tower Temple Small Key Chest 2F",
         "short_name": "Inverted Tower Small Key 3",
         "access_rules": [
@@ -396,8 +396,8 @@
         "capture_item": true,
         "item_count": 1
       },
-
-      {
+*/
+     /* {
         "name": "Inverted Stone Tower Temple Small Key Chest 1F",
         "short_name": "Inverted Tower Small Key 4",
         "access_rules": [
@@ -405,7 +405,7 @@
         ],
         "capture_item": true,
         "item_count": 1
-      },
+      },*/
 
       {
         "name": "Giant's Mask Chest",
@@ -418,7 +418,7 @@
       },
 
       {
-        "name": "Inverted Stone Tower Temple Boss Key Chest",
+        "name": "Boss Key Chest",
         "short_name": "Boss Key",
         "access_rules": [
           "bow,lightarrows,deku,hookshot"
@@ -439,7 +439,7 @@
         "item_count": 1
       },
 
-      {
+     /* {
         "name": "Oath to Order",
 		"chest_unopened_img": "images/unknownsong.png",
 		"chest_opened_img": "images/unknownsong_check.png",
@@ -449,7 +449,7 @@
         ],
         "capture_item": true,
         "item_count": 1
-      }
+      }*/
 
     ],
     "map_locations": [

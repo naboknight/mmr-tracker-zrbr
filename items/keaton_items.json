@@ -11,7 +11,9 @@
     "type": "toggle",
     "initial_active_state": true,
     "img": "images/lostwoods.png",
+	"capture_item": true,
     "codes": "lwoods"
+	
   },
    {
     "name": "Songs",
@@ -19,6 +21,13 @@
     "initial_active_state": true,
     "img": "images/songs.png",
     "codes": "songs"
+  },
+   {
+    "name": "Beneath the Well",
+    "type": "toggle",
+    "initial_active_state": true,
+    "img": "images/Well.png",
+    "codes": "well"
   },
   
 ]

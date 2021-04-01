@@ -1,5 +1,5 @@
 {
-  "tracker_default": {
+  /*"tracker_default": {
     "type": "container",
     "background": "#212121",
     "content": {
@@ -41,7 +41,7 @@
                 "h_alignment": "stretch",
                 "v_alignment": "stretch",
                 "orientation": "horizontal",
-                "compact": true
+                "compact": false
               }
             },
 
@@ -52,7 +52,8 @@
         }		
       ]
     }
-  },
+  },*/
+  "tracker_default": {  
     "type": "container",
     "background": "#212121",
     "content": {
@@ -64,12 +65,13 @@
           "dock": "bottom",
           "v_alignment": "stretch",
           "margin": "0,0,3,0",
+		  		"orientation": "vertical",
+
           "content": [
 
             {
               "type": "group",
               "header": "Items",
-              "dock": "bottom",
 			  "header_content": {
                 "type": "button_popup",
                 "style": "image",
@@ -83,7 +85,19 @@
                 "key": "shared_item_grid"
               }
             },
-
+			{
+              "type": "group",
+              "header": "Pinned Locations",
+              "margin": "3,0,0,0",
+              "content": {
+                "type": "recentpins",
+                "style": "wrap",
+                "h_alignment": "stretch",
+                "v_alignment": "stretch",
+                "orientation": "horizontal",
+                "compact": true
+              }
+            },
             
 		    
           ]
@@ -91,7 +105,7 @@
        {
               "type": "map",
               "dock": "top",
-			  
+
 			  "h_alignment": "stretch",
               "v_alignment": "stretch",
               "map": [
@@ -105,7 +119,7 @@
               "header": "Pinned Locations",
 			  "dock": "bottom",
               "margin": "3,0,0,0",
-			  "min_height": 300,
+			  "min_height": 200,
 			  "max_height": 500,
               "content": {
                 "type": "recentpins",
@@ -117,12 +131,13 @@
               }
               
             },
+
       ]
     }
   }
 
-
+}
 
  
 
-}
+

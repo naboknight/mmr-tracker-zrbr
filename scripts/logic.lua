@@ -81,9 +81,10 @@ end
 
 function can_grow_magic_plant()
   if (has("bottlesanity_no")  and has("beans") and has("bottle"))
-  or (has("bottlesanity_yes") and has("beans") and has("water"))
+  or (has("bottlesanity_no") and has("deku") and has("storm"))
+  or (has("bottlesanity_no") and has("deku") and has("water"))
   or (has("bottlesanity_yes") and has("beans") and has("hotspringwater"))
-  or (has("beans") and has("songofstorms") and has(ocarina))
+  or (has("beans") and has("storm") and has(ocarina))
   then
     return 1
   else
